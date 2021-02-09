@@ -9,9 +9,10 @@
             
          
 ## How to use
-1. Put a character into the heap with **"INS".**
-2. Delete the root node from the heap with **"DEL".**
-3. Finish the input with **"EOI".**
+1. Only 0~9, uppercase letter, lowercase letter and '?' are allowed to input. 
+2. Put a character into the heap with **"INS".**
+3. Delete the root node from the heap with **"DEL".**
+4. Finish the input with **"EOI".**
 
 ## Capture
 1. Test 1
