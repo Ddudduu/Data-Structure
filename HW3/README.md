@@ -15,7 +15,7 @@
 
 ## Capture
 1. Test 1
-<img src="../img/1.jpg" width="600">
+<img src="../img/1.jpg" width="400">
 
 2. Test 2
-<img src="../img/2.jpg" width="600">
+<img src="../img/2.jpg" width="400">
