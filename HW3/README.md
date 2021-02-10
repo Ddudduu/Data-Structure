@@ -13,10 +13,3 @@
 2. Put a character into the heap with **"INS".**
 3. Delete the root node from the heap with **"DEL".**
 4. Finish the input with **"EOI".**
-
-## Capture
-1. Test 1
-<img src="../img/1.jpg" width="400">
-
-2. Test 2
-<img src="../img/2.jpg" width="400">
