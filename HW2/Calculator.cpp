@@ -7,7 +7,7 @@
 
 using namespace std;
 
-#define OPERATOR "+-*/^()"
+#define OPERATOR "+-*/()"
 enum { NUM, OPER };
 
 typedef struct inputqueue {
@@ -47,6 +47,34 @@ double evaluate_postfix(usrinput usrinput);
 //계산식을 읽고 계산하는 함수
 double read_and_evaluate(char *str);
 
+int main(void) {
+	int size = 1000;
+	char * input = (char *)malloc(sizeof(char) * size);
+	double result = 0;
+
+	while (1) {
+		cin >> input;
+		if (!strcmp(input, "EOI"))
+			break;
+
+		result = read_and_evaluate(input);
+
+		if (!is_balanced_parenthese(input)) {
+			cout << "Error!: unbalanced parentheses";
+		}
+		else if (result == -123456)
+		{
+			cout << "Error!: divide by zero";
+		}
+		else {
+			result = (floor((result * 1000) + 0.5)) / 1000;
+			cout << result;
+		}
+
+		cout << endl << endl;
+	}
+	return 0;
+}
 
 bool isPair(char opening, char closing) {
 	if (opening == '(' && closing == ')') return true;
