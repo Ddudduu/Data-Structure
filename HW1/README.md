@@ -14,7 +14,9 @@ My own vector similar to <vector> in STL
 10. Reverses the vector. **"reverse()"**
 11. Checks the vector is empty. **"empty()"**
 12. Clears the vector. **"clear()"**         
-      
+
+## How to use
+1. Input **three double-type** elements of vec1.      
 
 ## Exception
 1. When adding, subtracting,multiplying two vectors which have different size.
